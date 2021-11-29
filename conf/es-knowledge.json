@@ -1,0 +1,78 @@
+{
+  "settings" : {
+    "index" : {
+      "number_of_shards" : "3",
+      "number_of_replicas" : "1",
+      "analysis.analyzer.default.type": "ik_max_word",
+      "max_result_window" : 100000000
+    }
+  }
+,
+  "mappings": {
+    "doc":{
+      "properties": {
+        "knowledgeId": {
+          "type": "integer"
+        },
+        "tagIds": {
+          "type": "text"
+        },
+        "tagNames": {
+          "type": "text"
+        },
+        "typeId": {
+          "type": "text"
+        },
+        "typeName": {
+          "type": "text"
+        },
+        "dirIds": {
+          "type": "text"
+        },
+        "title": {
+          "type":"text"
+        },
+        "richContent": {
+          "type": "text",
+          "index": false
+        },
+        "content": {
+          "type": "text"
+        },
+        "fileList": {
+          "type": "text"
+        },
+        "imgList": {
+          "type": "text"
+        },
+        "faultId": {
+          "type": "keyword"
+        },
+        "faultSymptom": {
+          "type": "text"
+        },
+        "faultComponent": {
+          "type": "text"
+        },
+        "faultTime": {
+          "type": "keyword"
+        },
+        "processStepSort": {
+          "type": "keyword"
+        },
+        "processStepPreId": {
+          "type": "keyword"
+        },
+        "processStepLinkTagId": {
+          "type": "keyword"
+        },
+        "createPerson": {
+          "type": "keyword"
+        },
+        "createTime": {
+          "type": "keyword"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+2021-07-20 18:22:15 CST ERROR com.jingjing.utils.DateUtil 372 string2LongTime - Unparseable date: "2021-07-20"
+2021-07-20 18:22:15 CST INFO  com.jingjing.MainApplication 13 main - hello world
+2021-07-20 18:22:36 CST INFO  com.jingjing.MainApplication 13 main - hello world
