@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="elasticsearch-7.14.0" />
+        <module name="elasticsearch-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="elasticsearch-7.14.0" target="1.8" />
+      <module name="elasticsearch-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
